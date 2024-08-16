@@ -10,7 +10,8 @@
     "test-storybook": "test-storybook",
     "test-storybook:coverage": "test-storybook --coverage",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "serve-storybook": "serve storybook-static"
   },
   "dependencies": {
     "@nextui-org/react": "^2.4.6",

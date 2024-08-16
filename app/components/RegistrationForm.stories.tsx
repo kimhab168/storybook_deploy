@@ -60,7 +60,7 @@ export const MockedRegistrationError: Story = {
       handlers: [
         http.post("https://your-api-endpoint/register", async () => {
           await delay(800); // Simulate network delay
-          return new HttpResponse(ErrorResponse, {
+          return new HttpResponse(null, {
             status: 400,
           });
         }),
